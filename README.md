@@ -6,7 +6,8 @@ A little QT app to test Openslide library (see openslide.org)
 License: GPL
 
 This application depends heavily on Openslide, which has to be installed first.
-openslide.h needs to be in your include path for compiling, and
+openslide.h and openslide-features.h need to be in your include path for
+compiling (or just copy them into the same folder where slidewalk.pro is).
 libopenslide-0.dll for Windows or libopenslide.so for Linux
 must be in lib path for linking.
 
