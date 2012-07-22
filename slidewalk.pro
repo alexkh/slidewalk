@@ -10,6 +10,7 @@ TARGET = slidewalk
 TEMPLATE = app
 
 
+INCLUDEPATH += /usr/include/openslide
 LIBS += -lopenslide
 
 
