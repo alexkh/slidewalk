@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui opengl
 
 TARGET = slidewalk
 TEMPLATE = app
@@ -15,8 +15,12 @@ LIBS += -lopenslide
 
 
 SOURCES += main.cpp\
-        mainbox.cpp
+        mainbox.cpp \
+    view.cpp \
+    zoomgraphicsview.cpp
 
-HEADERS  += mainbox.hpp
+HEADERS  += mainbox.hpp \
+    view.hpp \
+    zoomgraphicsview.hpp
 
 FORMS    += mainbox.ui
